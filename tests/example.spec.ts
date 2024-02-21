@@ -9,6 +9,5 @@ test('should have snapshot', async ({ page }) => {
   await page.goto('/');
   await expect(page).toHaveScreenshot('homepage.png', {
     fullPage: true,
-    maxDiffPixelRatio: 0.01,
   });
 });
