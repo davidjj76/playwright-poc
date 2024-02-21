@@ -19,4 +19,4 @@ jobs:
         run: ./run-tests.sh
         env:
           HOME: /root
-          # VITE_WELCOME: 'Welcome to Vite from Playwright'
+          VITE_WELCOME: 'Welcome to Vite from Playwright'
