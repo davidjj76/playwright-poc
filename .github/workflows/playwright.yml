@@ -17,5 +17,5 @@ jobs:
           node-version: 18
       - name: Execute tests
         run: ./run-tests.sh
-        env:
-          HOME: /root
+        # env:
+        #   HOME: /root
